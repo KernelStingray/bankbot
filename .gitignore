@@ -1,0 +1,32 @@
+# Скомпилированные бинарные файлы
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+/bot
+bin/
+
+# Файлы конфигурации и секреты (КРИТИЧЕСКИ ВАЖНО)
+.env
+.env.*
+!.env.example
+
+# Локальные данные баз данных и RabbitMQ
+pgdata/
+rmqdata/
+
+# Временные файлы редакторов и ОС
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Python окружение
+venv/
+.venv/
+env/
+__pycache__/
+*.py[cod]
